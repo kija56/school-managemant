@@ -1,0 +1,29 @@
+$fields = [
+        'id'          => [
+                'type'           => 'INT',
+                'constraint'     => 5,
+                'unsigned'       => true,
+                'auto_increment' => true
+        ],
+        'email'       => [
+                'type'           => 'VARCHAR',
+                'constraint'     => '100',
+                'unique'         => true,
+        ],
+        
+        'firstName'       => [
+                'type'           => 'VARCHAR',
+                'constraint'     => '100',
+                'unique'         => true,
+        ],
+        'lastName'      => [
+                'type'           =>'VARCHAR',
+                'constraint'     => 100,
+        ],
+        'password' => [
+                'type'           => 'TEXT',
+        ],
+        'confirmPassword'      => [
+                'type'           => 'TEXT',
+        ],
+];
